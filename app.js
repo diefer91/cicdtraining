@@ -52,7 +52,7 @@ app.use((req, res, next) => {
 
 // ─── ENDPOINTS ─────────────────────────────────────────────────────
 
-// Health check
+// Health checkkkk
 app.get('/', (req, res) => {
   res.json({
     status: 'ok',
