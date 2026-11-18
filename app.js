@@ -56,6 +56,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.json({
     status: 'ok',
+    message: 'heloooooo',
     service: 'cicdtraining',
     version: process.env.K_REVISION || 'local',
     timestamp: new Date().toISOString()
